@@ -1,0 +1,21 @@
+@import "./../../Variables.scss";
+
+.player {
+    @include player-template;
+    top: 150px;
+    height: 150px;
+}
+
+.player__title {
+    @include title-statistics;
+}
+
+.player__p {
+    @include p-statistics;
+}
+
+.player__input {
+    width: 80%;
+}
+
+

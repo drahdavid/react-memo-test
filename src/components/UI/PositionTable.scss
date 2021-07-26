@@ -1,0 +1,23 @@
+@import "./../../Variables.scss";
+
+.position {
+    @include player-template;
+    top: 350px;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.position__title {
+    @include title-statistics;
+}
+
+.position__container {
+    @include p-statistics;
+}
+.position__item {
+    display: inline-block;
+}
+.position__item--score {
+    margin-left: 120px;
+}
+

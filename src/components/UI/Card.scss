@@ -1,0 +1,36 @@
+@import "./../../Variables.scss";
+
+.card {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.card__container {
+    text-align: center;
+    background-color: $card-color;
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+.card__icon {
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.background--wrapper {
+    height: 750px;
+    background-color: $primary-color;
+}
+.background--wrapper__hr {
+    margin-bottom: 40px;
+    // margin-top: 10px;
+}
+.card__guessed {
+    transition: 1s;
+    background-color: $card-color__guessed;
+}
+

@@ -1,0 +1,34 @@
+@import "./../../Variables.scss";
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: $primary-color;
+}
+
+.menu__ul {
+    margin-top: 35px;
+    float: right;
+}
+.menu__item {
+    font-family: $font;
+    text-align: center;
+    display: inline-block;
+    width: $middle-align-width;
+    height: 25px;
+    border-radius: 5px;
+    color: $secondary-color;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.menu__item:active {
+    padding: 2px;
+    box-shadow: 1px 1px 5px 5px #666;
+    transform: translateY(4px);
+}
+.menu__logo {
+    width: $middle-align-width;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+

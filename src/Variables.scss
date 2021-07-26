@@ -1,0 +1,28 @@
+@mixin player-template {
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
+    position: absolute;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+@mixin p-statistics {
+    font-family: $font;
+    margin-left: $margin-statistics;
+}
+
+@mixin title-statistics {
+    margin-top: 20px;
+    font-family: $font;
+}
+
+
+$middle-align-width: 150px;
+$font: Verdana, Geneva, Tahoma, sans-serif;
+$primary-color: rgb(7, 6, 6);
+$secondary-color: white;
+$card-color: rgb(69, 69, 159);
+$card-color__guessed: rgb(110, 243, 201);
+$margin-statistics: 20px;
