@@ -4,7 +4,7 @@ export const Player = styled.div`
 border: 1px solid white;
 color: white;
 position: absolute;
-right: 80px;
+right: 60px;
 display: flex;
 flex-direction: column;
 width: 300px;
